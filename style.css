@@ -220,7 +220,7 @@ nav ul li a:hover:after {
 #about {
    background-color: #14022f;
     background-image: url(oooscillate.svg);
-    /* background-repeat: no-repeat; */
+   background-repeat: no-repeat;
    
 color: #fafcfc;
 
