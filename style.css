@@ -414,21 +414,18 @@ color: #fafcfc;
     }
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:600px) {
     html {
         font-size: 40%;
     }
 
     #home {
-        height: 75vh;
-    }
-
-    .myphoto {
-        display: none;
+        height: 40vh;
 
     }
-
-    .imageAboutPage {
-        display: none;
+    .contentt{
+        top: 10%;
     }
+
+    
 }
