@@ -52,63 +52,48 @@
     </div>
 
 
-    <!-- about section-->
-    <section id="about">
+   
 
-        <div class="co">
-            <h1 class="text-center">About Me</h1>
-
-
-
-
-            <div class="aboutinfo">
-
-                <ul class="mainlist">
-                    <li> <span>Name:</span>Anant Kumar Singh</li>
-                    <li> <span>Age:</span> 18</li>
-                    <li> <span>Education :</span>
-                        <ol type="i" class="list2">
-                            <li>
-                                Madan Mohan Malaviya University Of Technology:<br>
-
-                             -> Bachelor of Technology Computer Science and Engineering{
-                                2021--2025
-                             }
-                            </li>
-                            <li>
-                                 Delhi Public School,Panipat Refinery:<br>
-                              ->    Intermediate(2021)--92%<br> 
-                              
-                               -> High School(2019)--96%
-                            </li>
-
-
-
-
-
-                        </ol>
-                    </li>
-                    <li>
-                        <span>
-
-                            Skills:
-                        </span>
-                        A beginner at Front-end development and coding languages like c.
-                    </li>
-                    <li>
-                        <span>
-
-                            Hobbby:
-                        </span>
-                        Watching Anime , melomaniac and playing sports like football and badminton.
-                    </li>
-                </ul>
-
-
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Myphoto.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>Anant Kumar Singh <br>Age:18 <br>I am a first year student at MMMUT from CSE brach. <br>My goal is to have a profound knowledge in Data Scientist feild.</p>                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Achivements</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>CODING</span><br>--> C++  , C++++.</li>
+                        <!-- <li><span>Cyber Security/Ethical Hacking</span><br>-> Pentesting , Bug-Bounty , Malware-Analysis</li> -->
+                        <li><span>Web Development</span><br>--> HTML , CSS , JavaScript</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>-> ENNEXUS CTF WINNER</span></li>
+                        <li><span>-> Hackerrank</span><br> 3-Star C Coder</li>
+                        <li>2-Star C++ Coder</li><li>2-Star Problem solving</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2019</span><br>-> Passed class 10 (96.2%)</li>
+                        <li><span>2021</span><br>-> Passed class 12  (92.6%)</li>
+                        <li><span>2021-2025</span><br>->Computer Scince and Engineering Branch B.tech  MMMUT,Gorakhpur</li>
+                    </ul>
+                </div>
+                </div>
             </div>
-
         </div>
-    </section>
+    </div>
+    
 
     <!-- projects section-->
     <section id="projects">
